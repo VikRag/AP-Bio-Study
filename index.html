@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AP Biology Study Tool</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-brand">AP Bio</div>
+    <div class="nav-links">
+      <a href="#" data-page="home" class="nav-link active">Home</a>
+      <a href="#" data-page="units" class="nav-link">Units</a>
+      <a href="#" data-page="exam" class="nav-link">Exam</a>
+      <a href="#" data-page="mcq" class="nav-link">MCQ</a>
+      <a href="#" data-page="frq" class="nav-link">FRQ</a>
+      <a href="#" data-page="score" class="nav-link">Score</a>
+    </div>
+    <button class="nav-toggle" id="navToggle">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <main id="app"></main>
+
+  <script src="data.js"></script>
+  <script src="pages.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
